@@ -1,0 +1,14 @@
+.item {
+  cursor: pointer;
+  padding: 7px 20px;
+  color: black;
+}
+
+.item:hover:not(.selected) {
+  background-color: #ffccfe;
+}
+
+.selected {
+  background-color: #b42eb1;
+  color: white;
+}
